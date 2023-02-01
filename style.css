@@ -1,0 +1,151 @@
+@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #4400ce;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: .5;
+}
+
+.marque{
+    width: 500px;
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fd8101;
+    color: white;
+    text-transform: uppercase;
+    height: 15vh;
+}
+
+.lets{
+    color: white;
+    padding-bottom: 60px;
+    font-size: 2rem;
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+
+.show-score{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.group{
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 15vh);
+}
+
+.change-scores{
+    display: flex;
+    gap: .6rem;
+}
+
+.number{
+    border: 1px solid #6ae4b3;
+    color: #6ae4b3;
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+
+.number:hover{
+    background-color: #c2f0dd20;
+}
+
+.number:active{
+    background-color: #f4435b9b;
+}
+
+.home{
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.scores{
+    background-color: #fd8101;
+    color: rgb(255, 240, 240);
+    font-size: 4rem;
+    width: 120px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-family: Cursed Timer ULiL, sans-serif;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px black;
+}
+
+.change-scores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: #fd8101;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: Cursed Timer ULiL, sans-serif;
+}
+
+.btn:hover{
+    background-color: #fd8101;
+    color: white;
+    transition: .5s;
+}
+
+.btn:active{
+    box-shadow: 0px 0px 20px rgba(38, 38, 38, 0.668);
+    background-color: white;
+    color: #fd8101;
+}
+
+.main-score{
+    margin-bottom: 30px;
+}
